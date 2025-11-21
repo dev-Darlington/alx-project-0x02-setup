@@ -1,11 +1,11 @@
-import Home from "@/pages/home"
-import About from "@/pages/about"
+import Link from "next/link"
 
 const Header = () => {
+  
   return (
     <div>
-      <Home />
-      <About />
+      <Link href="/home">Home</Link>
+      <Link href='/about'>About</Link>
     </div>
   )
 }
