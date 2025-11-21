@@ -1,6 +1,10 @@
+import Card from "@/components/common/Card"
+
 const Home = () => {
   return (
-    <h1>home</h1>
+    <div>
+      <Card title="NextJS Practice" content="Some dummy text"/>
+    </div>
   )
 }
 export default Home

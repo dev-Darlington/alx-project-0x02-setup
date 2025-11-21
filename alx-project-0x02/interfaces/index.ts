@@ -1,4 +1,4 @@
-const index = () => {
-  return null
+export interface CardProps {
+  title: string,
+  content: string,
 }
-export default index
