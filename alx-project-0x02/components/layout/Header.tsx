@@ -6,7 +6,7 @@ const Header = () => {
     <div>
       <Link className="mx-2" href="/home">Home</Link>
       <Link className="mx-2" href='/about'>About</Link>
-      <Link className="mx-2" href='/pages'>Pages</Link>
+      <Link className="mx-2" href='/posts'>Posts</Link>
     </div>
   )
 }
