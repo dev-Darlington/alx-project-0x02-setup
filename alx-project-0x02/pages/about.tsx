@@ -1,8 +1,10 @@
 import Button from "@/components/common/Button"
+import Header from "@/components/layout/Header"
 
 const About = () => {
   return (
     <div>
+      <Header />
       <div>
       <Button size="10" shape="rounded-sm" text="Small Button"/>
       </div>

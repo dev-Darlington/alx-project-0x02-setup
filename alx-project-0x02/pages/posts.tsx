@@ -1,6 +1,10 @@
+import Header from "@/components/layout/Header"
+
 const posts = () => {
   return (
-    <div>posts</div>
+    <div>
+        <Header />
+    </div>
   )
 }
 export default posts
