@@ -1,5 +1,6 @@
 import Card from "@/components/common/Card"
 import PostModal from "@/components/common/PostModal"
+import Header from "@/components/layout/Header"
 import { PostData } from "@/interfaces"
 import { useState } from "react"
 
@@ -22,6 +23,7 @@ const Home = () => {
 
   return (
     <div>
+      <Header />
       <Card title="NextJS Practice" content="Some dummy text"/>
       <button 
         className="p-5 bg-amber-200 rounded-xl"
